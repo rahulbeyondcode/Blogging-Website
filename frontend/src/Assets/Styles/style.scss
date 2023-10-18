@@ -1,0 +1,285 @@
+$primaryColor: #50c113;
+$shadow: rgb(146, 146, 146);
+$transparent-primary: rgba(229, 249, 218, 0.408);
+$font-color: rgba(0, 0, 0, 0.824);
+
+$break-small: 600px;
+$break-medium: 768px;
+$break-large: 992px;
+$break-xlarge: 1200px;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  .home-page {
+    width: 100vw;
+    flex-direction: column;
+    .navbar {
+      position: fixed;
+      width: 100vw;
+      background-color: #fff;
+      padding: 0.5rem 0;
+      display: flex;
+      justify-content: space-between;
+      box-shadow: 0px 1px 8px $shadow;
+      .logo {
+        list-style: none;
+        padding: 0 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        font-size: 1.2rem;
+        cursor: pointer;
+      }
+      ul {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 5rem;
+        a {
+          text-decoration: none;
+          color: $font-color;
+          font-weight: 500;
+          margin: 0.5rem 1.5rem;
+          &.active {
+            color: $primaryColor;
+            font-weight: 500;
+            padding-bottom: 0.2em;
+            border-bottom: 2px $primaryColor solid;
+          }
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .avoid-header {
+      padding-top: 4rem;
+      display: flex;
+      justify-content: center;
+      height: calc(100vh - 4rem);
+
+      .articles {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 90vw;
+        justify-self: center;
+        .error-messages {
+          font-size: 1.2rem;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        .card {
+          padding: 2rem;
+          margin: 2rem 1.5rem;
+          overflow: auto;
+          box-shadow: 4px 4px 10px $shadow;
+          justify-content: center;
+          align-items: center;
+          width: 20rem;
+          height: 8rem;
+          &:hover {
+            background-color: $transparent-primary;
+            cursor: pointer;
+          }
+          .heading {
+            font-size: 1rem;
+            font-weight: bold;
+            color: gray;
+            margin-bottom: 15px;
+            text-align: center;
+          }
+          .description {
+            color: $font-color;
+            font-size: 0.9rem;
+          }
+        }
+      }
+      .create-blog {
+        width: 85vw;
+        padding-top: 1rem;
+        .create-blog-header {
+          font-size: 1.5rem;
+          margin-top: 1rem;
+          text-align: center;
+        }
+        .create-blog-form {
+          display: flex;
+          flex-direction: column;
+          .align-form {
+            display: flex;
+            justify-content: space-between;
+            margin: 1rem 0rem;
+          }
+          label {
+            flex-grow: 1;
+          }
+          input {
+            height: 2rem;
+            width: 50rem;
+          }
+          textarea {
+            height: 10rem;
+            width: 50rem;
+          }
+          select {
+            height: 2rem;
+            width: 50rem;
+            background-color: transparent;
+            border-radius: 4px;
+          }
+        }
+      }
+      .create-blog-btn {
+        background-color: $primaryColor;
+        color: white;
+        padding: 0.7rem 1.3rem;
+        font-size: 1rem;
+        outline: none;
+        border: none;
+        font-weight: bold;
+        border-radius: 4px;
+        margin: 0.8rem 0rem 5rem 0rem;
+        align-self: flex-end;
+        width: 10rem;
+        display: block;
+        box-shadow: 4px 4px 5px $shadow;
+        cursor: pointer;
+      }
+
+      button:disabled,
+      button[disabled] {
+        border: 1px solid #999999;
+        background-color: #cccccc;
+        color: #666666;
+        cursor: not-allowed;
+      }
+
+      .author-and-cta-btn {
+        display: flex;
+        justify-content: space-between;
+        width: 80vw;
+        .bold {
+          font-weight: 500;
+        }
+        .cta-holder {
+          .btn {
+            outline: none;
+            border: none;
+            padding: 0.7rem 2rem;
+            margin: 1rem;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 0.8rem;
+            box-shadow: 2px 2px 5px $shadow;
+            font-weight: bold;
+            cursor: pointer;
+            &:hover {
+              transition: 0.3s;
+              box-shadow: 2px 4px 8px $shadow;
+            }
+          }
+          .edit-btn {
+            background-color: orange;
+          }
+          .delete-btn {
+            background-color: red;
+          }
+        }
+      }
+      .blog {
+        margin-top: 5rem;
+        .blog-title {
+          text-align: center;
+        }
+        .blog-description {
+          margin-top: 3rem;
+          width: 80vw;
+          text-align: justify;
+        }
+      }
+      .modalStyles {
+        padding: 2rem;
+        .modaltitle {
+          text-align: center;
+          font-size: 1.2rem;
+        }
+        .modalSubtitle {
+          margin-top: 1rem;
+          text-align: center;
+          font-size: 0.9rem;
+        }
+        .modalButtonsHolder {
+          width: 100%;
+          margin-top: 2rem;
+          display: flex;
+          justify-content: center;
+          .modal-btn {
+            font-weight: bold;
+            padding: 0.5rem 2rem;
+            border-radius: 4px;
+            outline: none;
+            border: none;
+            margin-right: 1rem;
+            cursor: pointer;
+            transition: 0.2s;
+            &:hover {
+              box-shadow: 2px 2px 6px $shadow;
+            }
+          }
+          .cta-cancel {
+            background-color: lightgray;
+            color: black;
+          }
+          .cta-delete {
+            background-color: red;
+            color: white;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  .input-and-error {
+    display: flex;
+    flex-direction: column;
+    .input-box {
+      width: 50rem;
+    }
+    .input-error {
+      color: red;
+      margin-top: 1rem;
+      font-size: 14px;
+    }
+  }
+  .add-blog-button {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    font-size: 5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $primaryColor;
+    border-radius: 50%;
+    color: white;
+    transition: 0.2s;
+    box-shadow: 4px 4px 5px $shadow;
+    &:hover {
+      width: 4rem;
+      height: 4rem;
+      font-size: 5.2rem;
+      cursor: pointer;
+      box-shadow: 4px 4px 8px $shadow;
+    }
+  }
+}

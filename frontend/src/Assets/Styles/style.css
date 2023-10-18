@@ -1,0 +1,388 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+body .home-page {
+  width: 100vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .home-page .navbar {
+  position: fixed;
+  width: 100vw;
+  background-color: #fff;
+  padding: 0.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0px 1px 8px #929292;
+          box-shadow: 0px 1px 8px #929292;
+}
+
+body .home-page .navbar .logo {
+  list-style: none;
+  padding: 0 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+body .home-page .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 5rem;
+}
+
+body .home-page .navbar ul a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.824);
+  font-weight: 500;
+  margin: 0.5rem 1.5rem;
+}
+
+body .home-page .navbar ul a.active {
+  color: #50c113;
+  font-weight: 500;
+  padding-bottom: 0.2em;
+  border-bottom: 2px #50c113 solid;
+}
+
+body .home-page .navbar ul a:hover {
+  cursor: pointer;
+}
+
+body .home-page .avoid-header {
+  padding-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: calc(100vh - 4rem);
+}
+
+body .home-page .avoid-header .articles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 90vw;
+  justify-self: center;
+}
+
+body .home-page .avoid-header .articles .error-messages {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body .home-page .avoid-header .articles .card {
+  padding: 2rem;
+  margin: 2rem 1.5rem;
+  overflow: auto;
+  -webkit-box-shadow: 4px 4px 10px #929292;
+          box-shadow: 4px 4px 10px #929292;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20rem;
+  height: 8rem;
+}
+
+body .home-page .avoid-header .articles .card:hover {
+  background-color: rgba(229, 249, 218, 0.408);
+  cursor: pointer;
+}
+
+body .home-page .avoid-header .articles .card .heading {
+  font-size: 1rem;
+  font-weight: bold;
+  color: gray;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+body .home-page .avoid-header .articles .card .description {
+  color: rgba(0, 0, 0, 0.824);
+  font-size: 0.9rem;
+}
+
+body .home-page .avoid-header .create-blog {
+  width: 85vw;
+  padding-top: 1rem;
+}
+
+body .home-page .avoid-header .create-blog .create-blog-header {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+body .home-page .avoid-header .create-blog .create-blog-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .home-page .avoid-header .create-blog .create-blog-form .align-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem 0rem;
+}
+
+body .home-page .avoid-header .create-blog .create-blog-form label {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+body .home-page .avoid-header .create-blog .create-blog-form input {
+  height: 2rem;
+  width: 50rem;
+}
+
+body .home-page .avoid-header .create-blog .create-blog-form textarea {
+  height: 10rem;
+  width: 50rem;
+}
+
+body .home-page .avoid-header .create-blog .create-blog-form select {
+  height: 2rem;
+  width: 50rem;
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+body .home-page .avoid-header .create-blog-btn {
+  background-color: #50c113;
+  color: white;
+  padding: 0.7rem 1.3rem;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  margin: 0.8rem 0rem 5rem 0rem;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 10rem;
+  display: block;
+  -webkit-box-shadow: 4px 4px 5px #929292;
+          box-shadow: 4px 4px 5px #929292;
+  cursor: pointer;
+}
+
+body .home-page .avoid-header button:disabled,
+body .home-page .avoid-header button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+body .home-page .avoid-header .author-and-cta-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80vw;
+}
+
+body .home-page .avoid-header .author-and-cta-btn .bold {
+  font-weight: 500;
+}
+
+body .home-page .avoid-header .author-and-cta-btn .cta-holder .btn {
+  outline: none;
+  border: none;
+  padding: 0.7rem 2rem;
+  margin: 1rem;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.8rem;
+  -webkit-box-shadow: 2px 2px 5px #929292;
+          box-shadow: 2px 2px 5px #929292;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+body .home-page .avoid-header .author-and-cta-btn .cta-holder .btn:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-shadow: 2px 4px 8px #929292;
+          box-shadow: 2px 4px 8px #929292;
+}
+
+body .home-page .avoid-header .author-and-cta-btn .cta-holder .edit-btn {
+  background-color: orange;
+}
+
+body .home-page .avoid-header .author-and-cta-btn .cta-holder .delete-btn {
+  background-color: red;
+}
+
+body .home-page .avoid-header .blog {
+  margin-top: 5rem;
+}
+
+body .home-page .avoid-header .blog .blog-title {
+  text-align: center;
+}
+
+body .home-page .avoid-header .blog .blog-description {
+  margin-top: 3rem;
+  width: 80vw;
+  text-align: justify;
+}
+
+body .home-page .avoid-header .modalStyles {
+  padding: 2rem;
+}
+
+body .home-page .avoid-header .modalStyles .modaltitle {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+body .home-page .avoid-header .modalStyles .modalSubtitle {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+body .home-page .avoid-header .modalStyles .modalButtonsHolder {
+  width: 100%;
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .home-page .avoid-header .modalStyles .modalButtonsHolder .modal-btn {
+  font-weight: bold;
+  padding: 0.5rem 2rem;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin-right: 1rem;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body .home-page .avoid-header .modalStyles .modalButtonsHolder .modal-btn:hover {
+  -webkit-box-shadow: 2px 2px 6px #929292;
+          box-shadow: 2px 2px 6px #929292;
+}
+
+body .home-page .avoid-header .modalStyles .modalButtonsHolder .cta-cancel {
+  background-color: lightgray;
+  color: black;
+}
+
+body .home-page .avoid-header .modalStyles .modalButtonsHolder .cta-delete {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+body .input-and-error {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .input-and-error .input-box {
+  width: 50rem;
+}
+
+body .input-and-error .input-error {
+  color: red;
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
+body .add-blog-button {
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+  font-size: 5rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #50c113;
+  border-radius: 50%;
+  color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-box-shadow: 4px 4px 5px #929292;
+          box-shadow: 4px 4px 5px #929292;
+}
+
+body .add-blog-button:hover {
+  width: 4rem;
+  height: 4rem;
+  font-size: 5.2rem;
+  cursor: pointer;
+  -webkit-box-shadow: 4px 4px 8px #929292;
+          box-shadow: 4px 4px 8px #929292;
+}
+/*# sourceMappingURL=style.css.map */

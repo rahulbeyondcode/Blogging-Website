@@ -1,0 +1,278 @@
+{
+    "blogTitle":"Creating Complex Animations in React Using react-spring",
+    "category":"React",
+    "blogText":"something",
+    "cardDescription":  "Here's a tutorial where I use react-spring and the help of the useSprings, useTrail and useChain hooks to create complex animations in React.",
+    "author":"Rahul R",
+    "phoneNumber":"+91 7907713507" 
+}
+
+{
+    "blogTitle":"react-notifications-component, a Powerful React Notifications Library",
+    "category":"React",
+    "blogText":"something",
+    "cardDescription":  "The react-notifications-component React component library will save you tons of time with notifications inside of your React apps.",
+    "author":"Rintu Reji John",
+    "phoneNumber":"+91 8281954992" 
+}
+
+{
+    "blogTitle":"ReactJS from scratch",
+    "category":"React",
+    "blogText":"something",
+    "cardDescription":  "This tutorial lets you understand react from the basics. Go on with this tutorial and you will get all the things you will need to know about React",
+    "author":"Rahul R",
+    "phoneNumber":"+91 7907713507" 
+}
+
+{
+    "blogTitle":"Intro to Animations in React Using React Spring",
+    "category":"React",
+    "blogText":"something",
+    "cardDescription":  "Learn how to create dynamic physics-based animations in your React apps using the react-spring spring-physics animation library.",
+    "author":"HKV",
+    "phoneNumber":"+91 9633529018" 
+}
+
+{
+    "blogTitle":"Difference between functional and classbased components",
+    "category":"React",
+    "blogText":"something",
+    "cardDescription":  "Learn how to create functional and class based components in your React apps. We will create an app using create-react-app in the beginning. ",
+    "author":"Rintu Reji John",
+    "phoneNumber":"+91 8281954992" 
+}
+
+
+
+
+
+
+{
+    "blogTitle":"Create a realword website design in figma",
+    "category":"Designing",
+    "blogText":"something",
+    "cardDescription":  "Get into the best blog on designing basics using figma where you create a realworld website design using figma",
+    "author":"Rintu Reji John",
+    "phoneNumber":"+91 8281954992"
+}
+
+
+
+
+
+
+
+{
+    "blogTitle":"The V8 Engine and JavaScript Optimization Tips",
+    "category":"JavaScript",
+    "blogText":"something",
+    "cardDescription":  "A 5,000 feet overview of how the V8 JavaScript engine works and how to write JavaScript code that's optimized for fast parsing speed.",
+    "author":"HKV",
+    "phoneNumber":"+91 9633529018" 
+}
+
+{
+    "blogTitle":"Animations with the Canvas API - Part 1: Linear Motion",
+    "category":"JavaScript",
+    "blogText":"something",
+    "cardDescription":  "Learn how to create basic animations using the HTML Canvas element and the corresponding JavaScript API.",
+    "author":"Rahul R",
+    "phoneNumber":"+91 7907713507" 
+}
+
+{
+    "blogTitle":"Animations with the Canvas API - Part 2: Basic Collisions",
+    "category":"JavaScript",
+    "blogText":"something",
+    "cardDescription":  "Learn how to create more complex animations that contain collision effects using the JavaScript Canvas API.",
+    "author":"Rintu Reji John",
+    "phoneNumber":"+91 8281954992" 
+}
+
+{
+    "blogTitle":"Animations with the Canvas API - Part 3: Gravity and Dynamic Rendering",
+    "category":"JavaScript",
+    "blogText":"something",
+    "cardDescription":  "In this last part of our short series on creating animations using the JavaScript Canvas API we go over creating a gravity effect via a demo raindrop animation.",
+    "author":"Rintu Reji John",
+    "phoneNumber":"+91 8281954992" 
+}
+
+
+{
+    "blogTitle":"Understanding Variable Scope in JavaScript",
+    "category":"JavaScript",
+    "blogText":"something",
+    "cardDescription":  "In this post, we'll explore variable scope, a key JavaScript concept to understand in order to write better code and understand the code you write.",
+    "author":"Rahul R",
+    "phoneNumber":"+91 7907713507" 
+}
+
+{
+    "blogTitle":"Draw the Alligator.io SVG Logo with GreenSock",
+    "category":"JavaScript",
+    "blogText":"something",
+    "cardDescription":  "Learn the basics of how to draw SVG graphics using GreenSock (aka GSAP), a popular JavaScript animation library.",
+    "author":"Rahul R",
+    "phoneNumber":"+91 7907713507" 
+}
+
+
+
+
+
+
+
+{
+    "blogTitle":"Comparing CSS Pseudo-Classes: nth-child vs nth-of-type",
+    "category":"htmlcss",
+    "blogText":"something",
+    "cardDescription":  "Learn the the difference between the CSS pseudo-classes nth-child and nth-of-type. Examples of when to use each will be explored too.",
+    "author":"Rintu Reji John",
+    "phoneNumber":"+91 8281954992" 
+}
+
+{
+    "blogTitle":"CSS Hex Code Colors with Alpha Values",
+    "category":"htmlcss",
+    "blogText":"something",
+    "cardDescription":  "Learn how to use hex codes in CSS and change the transparency of the color by introducing an alpha value. An intro to hexadecimal numbers is included too.",
+    "author":"Rahul R",
+    "phoneNumber":"+91 7907713507" 
+}
+
+{
+    "blogTitle":"Understanding Specificity in CSS",
+    "category":"htmlcss",
+    "blogText":"something",
+    "cardDescription":  "Learn the basics of specificity in CSS and why you should never need !important.",
+    "author":"Rintu Reji Joh",
+    "phoneNumber":"+91 828195499" 
+}
+
+{
+    "blogTitle":"Change Text Case with CSS's text-transform Property",
+    "category":"htmlcss",
+    "blogText":"something",
+    "cardDescription":  "Learn how to update the case of your text with only CSS. We'll also look at when CSS text transformations are preferable to JavaScript's.",
+    "author":"HKV",
+    "phoneNumber":"+91 9633529018" 
+}
+
+
+
+
+
+
+
+
+
+
+{
+    "blogTitle":"Using Angular CLI Schematics",
+    "category":"Frontend",
+    "blogText":"something",
+    "cardDescription":  "Learn how to augment your Angular app development using Angular Schematics at the CLI.",
+    "author":"Rahul R",
+    "phoneNumber":"+91 7907713507" 
+}
+
+{
+    "blogTitle":"Basic Server Side Rendering with Vue.js and Express",
+    "category":"Frontend",
+    "blogText":"something",
+    "cardDescription":  "Learn how to implement rudimentary server-side for your Vue.js apps.",
+    "author":"Rahul R",
+    "phoneNumber":"+91 7907713507" 
+}
+
+{
+    "blogTitle":"Infinite Scroll in Angular Using the CDK",
+    "category":"Frontend",
+    "blogText":"something",
+    "cardDescription":  "Learn how to implement an infinitely scrolling page in Angular with the help of the official Component Dev Kit (CDK).",
+    "author":"HKV",
+    "phoneNumber":"+91 9633529018" 
+}
+
+{
+    "blogTitle":"Vue.js REST API Consumption with Axios",
+    "category":"Frontend",
+    "blogText":"something",
+    "cardDescription":  "Consume REST APIs and make HTTP Requests in a quick and easy manner with Axios and Vue.js.",
+    "author":"Rahul R",
+    "phoneNumber":"+91 7907713507" 
+}
+
+{
+    "blogTitle":"Angular MVC - A Primer",
+    "category":"Frontend",
+    "blogText":"something",
+    "cardDescription":  "This tutorial shows how the Model-View-Controller pattern is achieved (in an MVVM way) in Angular.",
+    "author":"HKV",
+    "phoneNumber":"+91 9633529018" 
+}
+
+
+
+
+
+
+
+
+
+
+{
+    "blogTitle":"Adding and Removing Packages Using npm or Yarn",
+    "category":"Backend",
+    "blogText":"something",
+    "cardDescription":  "Learn how to add and remove packages globally and as project dependencies using npm and Yarn.",
+    "author":"Rahul R",
+    "phoneNumber":"+91 7907713507" 
+}
+
+{
+    "blogTitle":"Getting Started with Compression in Node.js",
+    "category":"Backend",
+    "blogText":"something",
+    "cardDescription":  "Get started with setting up compression in your Node.js and Express.js APIs.",
+    "author":"HKV",
+    "phoneNumber":"+91 9633529018" 
+}
+
+{
+    "blogTitle":"Understanding Express Template Engines",
+    "category":"Backend",
+    "blogText":"something",
+    "cardDescription":  "A brief introduction into various template engines you can use in Node.js and Express. We'll go over Pug, EJS and Mustache.",
+    "author":"Rahul R",
+    "phoneNumber":"+91 7907713507" 
+}
+
+{
+    "blogTitle":"Getting Started with PM2, the Node.js Process Manager",
+    "category":"Backend",
+    "blogText":"something",
+    "cardDescription":  "Learn the very basics of the PM2 production process manager. See what it can do for you and how to get started with using it.",
+    "author":"HKV",
+    "phoneNumber":"+91 9633529018" 
+}
+
+{
+    "blogTitle":"Running Multiple Versions of Node.js with Node Version Manager",
+    "category":"Backend",
+    "blogText":"something",
+    "cardDescription": "Learn how to run multiple versions of Node.js using Node Version Manager (nvm).",
+    "author":"Rahul R",
+    "phoneNumber":"+91 7907713507" 
+}
+
+{
+    "blogTitle":"Introduction to Stripe Payments in Node.js Using Express",
+    "category":"Backend",
+    "blogText":"something",
+    "cardDescription": "Learn the fundamentals of Stripe Payments using Node.js on the backend by building a simple donation app.",
+    "author":"Rahul R",
+    "phoneNumber":"+91 7907713507" 
+}
